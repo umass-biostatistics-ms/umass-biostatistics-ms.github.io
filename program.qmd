@@ -1,0 +1,114 @@
+---
+title: "The program"
+subtitle: "30 credits · 3–4 semesters · project or thesis"
+---
+
+## What is biostatistics?
+
+Biostatistics is a sister field to statistics that focuses on data about human health. Biostatisticians:
+
+- analyze data
+- design and analyze clinical and population studies in biomedical research
+- develop and validate new methods and tools
+- communicate results to scientific and general audiences
+
+You don't need a science background, just curiosity. Some biology helps but is not required.
+
+## How you'll learn
+
+The curriculum follows the full cycle of study design and data analysis:
+
+**ask a question → explore the data → model it → communicate the findings**.
+
+:::::: grid
+::: {.g-col-12 .g-col-md-4}
+**Scientific context**<br>A public health core, plus electives across the health sciences.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+**Programming and visualization**<br>R and SAS, with reproducible data analysis.
+:::
+
+::: {.g-col-12 .g-col-md-4}
+**Modeling uncertainty**<br>Biostatistics core courses, plus electives in epidemiology, statistics and computer science.
+:::
+::::::
+
+## What the program looks like
+
+::::::: facts
+::: fact
+[17 credits]{.num} [**Biostats core**: methods, data science, advanced R and specialized electives]{.label}
+:::
+
+::: fact
+[6 credits]{.num} [**Culminating experience**: a project course plus an elective, or a thesis]{.label}
+:::
+
+::: fact
+[4 credits]{.num} [**Electives**: biostatistics, statistics, epidemiology, computer science and more]{.label}
+:::
+
+::: fact
+[3 credits]{.num} [**Public health core**]{.label}
+:::
+:::::::
+
+Students without prior statistics coursework also take **0–7 credits of biostats foundation courses** (regression, probability and inference, computing with R).
+
+| Component | Credits | What it covers |
+|------------------------|------------------------|------------------------|
+| **Biostats foundation** | 0–7 | Regression, probability and inference, and computing with R. Math/stat majors with prior coursework can waive these. |
+| **Public health core** | 3 | Includes a 1-credit public health class. |
+| **Biostats core** | 17 | Topics in biostatistics, data science and epidemiology; advanced R; specialized electives such as survival analysis, Bayesian statistics and clinical trials. |
+| **Electives** | 4 | Biostatistics, statistics, epidemiology, computer science and more. |
+| **Culminating experience** | 6 | A project-based course (3) plus one elective (3), *or* an MS thesis (6). |
+
+: A course is usually 3 credits.
+
+### How long does it take?
+
+- **With a math or statistics background:** about 3 semesters, or 2 semesters plus a summer (30 credits).
+- **Without prior statistics:** about 4 semesters (30–37 credits, including the foundation courses).
+
+## Culminating experience
+
+You finish the program by bringing your training together in one of two ways.
+
+### Project course: Biostatistics in Action (BIOSTATS 690E)
+
+This is where your biostatistics and public health education all comes together. You work on a real-world public health problem as a biostatistician: you develop your own research protocol (literature review, study design, statistical analysis plan, and power and sample size calculation), carry out the analysis, write a manuscript and present your findings. Taught by [Alex Knee](https://www.umass.edu/public-health-sciences/about/directory/alex-knee), an applied biostatistician and epidemiologist with 20 years of experience at an academic medical center. [More on the course →](courses.qmd)
+
+Examples of capstone projects:
+
+- **A Difference-in-Differences Analysis of State Medicaid Expansion and Cost-Related Delay of Care.** Cole Spinale (MS 2026)
+
+- **Comparing Multivariable Prediction Models to Classify Current Smoking Status Among U.S. Adults Using Demographic and Socioeconomic Characteristics.** Jordyn Sullivan (MS 2026)
+
+### MS thesis
+
+Alternatively, you can do a 6-credit MS thesis, working one-on-one with a faculty advisor on an original research project.
+
+Examples of MS theses:
+
+- **Public masking mandates and COVID-19 growth rates.** Angus Wong (MS 2021); published in *Epidemiology* (2022).
+- **Bayesian spatial models of birth weight in Ghana.** Barbara Mottey (MS 2021).
+- **Spatio-temporal clusters of SARS-CoV-2 infections.** Keith Allison (MS 2022).
+- **Estimating the Change in Expected All-Cause ED Hospitalizations During the COVID-19 Pandemic in Massachusetts.** Amani Chehimi (MS 2025).
+- **Statistical Methods for Regression Analysis with Interval-censored Covariates.** Lin Cai (MS 2026).
+
+## The 4+1 MS
+
+Undergraduates at UMass and the Five Colleges can start the MS in their senior year and finish in one extra year. [Learn about the 4+1 →](4plus1.qmd)
+
+## Additional resources
+
+<!-- - **[MS and Accelerated MS Student Handbook (Fall 2026)](https://umass.sharepoint.com/:b:/r/sites/SPHHS-website-backup/Documents/Dept.%20of%20Biostatistics%20and%20Epidemiology/Biostatistics%20Program/Master%20of%20Science%20BioStatistics/Biostatistics%20MS%20handbook%20Fall%202026.pdf?csf=1&web=1&e=RbndCC)** -->
+
+- [MS Tracking Form (updated Jan 2025)](resources/ms-tracking-form-jan2025.pdf) (PDF): use it to plan your courses and track your progress toward the degree.
+
+- [SPHHS Graduate Student Handbook & resources](https://www.umass.edu/public-health-sciences/book/graduate-student-handbook-resources-supporting-your-success)
+
+- [Course descriptions](https://www.umass.edu/public-health-sciences/academics/biostatistics/course-descriptions)
+
+- [Biostatistics career resources](https://www.umass.edu/public-health-sciences/academics/biostatistics/biostatistics-career-resources)

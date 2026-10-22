@@ -1,0 +1,45 @@
+---
+title: "Accelerated MS (4+1)"
+subtitle: "Your master's in one extra year, for students from UMass and the Five Colleges"
+---
+
+Earn your **MS in Biostatistics in just one additional year** after your bachelor's degree. If you're an undergraduate at **UMass Amherst, Amherst College, Hampshire, Mount Holyoke or Smith**, you can start graduate courses in your senior year and count some of them toward both degrees.
+
+::: {.facts}
+::: {.fact}
+[12]{.num}
+[credits from your senior year can transfer to the MS]{.label}
+:::
+::: {.fact}
+[6]{.num}
+[credits can count toward both your bachelor's degree and the MS]{.label}
+:::
+::: {.fact}
+[+1]{.num}
+[year after graduation to finish the MS]{.label}
+:::
+:::
+
+## Watch: biostatistics for undergraduates
+
+::: {.video-wrap}
+{{< yt jQtB1J9qwJA "Biostatistics for undergraduates at UMass Amherst" >}}
+:::
+
+## Who is eligible?
+
+- Undergraduates at **UMass and the Five Colleges**
+- You **apply in the fall of your junior year**
+- You have room in your senior-year schedule for graduate courses that don't count toward your undergraduate degree
+
+## How it works
+
+| When | What you do |
+|---|---|
+| **Junior year, fall** | Apply to the 4+1 |
+| **Senior year** | Take graduate courses (typically 6–12 credits); up to 6 count toward both degrees |
+| **The +1 year** | Finish the remaining MS credits (typically 18–24) and your project or thesis |
+
+## Questions?
+
+Contact Nick Reich ([nick@umass.edu](mailto:nick@umass.edu)). See also the [official 4+1 page](https://www.umass.edu/public-health-sciences/academics/41-accelerated-ms-biostatistics).

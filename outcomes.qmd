@@ -1,0 +1,63 @@
+---
+title: "Careers & alumni"
+subtitle: "Where our MS and PhD graduates work"
+---
+
+Biostatisticians are in demand across **pharma, tech, insurance, government, health care and research**. Our training in both statistical foundations and application makes graduates highly employable.
+
+## Examples of where our MS and PhD alumni work
+
+<!-- To add an employer, add a bullet to the right block. Each bullet becomes a tile. -->
+
+::: {.sector-box}
+#### Pharma, biotech & health tech
+::: {.employer-grid}
+- Novartis
+- Moderna
+- AbbVie
+- Sanofi
+- Unlearn.AI
+:::
+:::
+
+::: {.sector-box}
+#### Industry, tech & insurance
+::: {.employer-grid}
+- Google
+- Analog Devices
+- Travelers
+- The Hartford
+- MassMutual
+- Certilytics
+- Lactalis US
+:::
+:::
+
+::: {.sector-box}
+#### Government, public health & health care
+::: {.employer-grid}
+- US Food and Drug Administration (FDA)
+- New York State Department of Health
+- Rhode Island Department of Human Services
+- Los Alamos National Laboratory
+- ICF
+- Mass General Brigham
+- Kaiser Permanente
+:::
+:::
+
+::: {.sector-box}
+#### Academia & research
+::: {.employer-grid}
+- Fred Hutch Cancer Center
+- Emory University
+- Trinity College Dublin
+- University of Maryland School of Medicine
+- UC Santa Cruz
+:::
+:::
+
+## Career support
+
+- [Biostatistics career resources](https://www.umass.edu/public-health-sciences/academics/biostatistics/biostatistics-career-resources)
+- [SPHHS Career Planning](https://www.umass.edu/public-health-sciences/career-planning)

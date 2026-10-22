@@ -1,0 +1,244 @@
+/*-- scss:defaults --*/
+// UMass brand: maroon primary, black/white, Public Sans for body & headings
+// https://www.umass.edu/brand/applying-brand/web-digital
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&family=Lora:ital@0;1&display=swap');
+
+$umass-maroon: #881c1c;
+$primary: $umass-maroon;
+$link-color: $umass-maroon;
+$font-family-sans-serif: "Public Sans", system-ui, sans-serif;
+$headings-font-weight: 700;
+$navbar-bg: $umass-maroon;
+$footer-bg: #f5f5f5;
+
+/*-- scss:rules --*/
+
+// Hero block on the home page
+.hero {
+  background: $umass-maroon;
+  color: #fff;
+  padding: 3rem 2rem;
+  margin: 0 0 2rem 0;
+  border-radius: 0.5rem;
+  h1 { color: #fff; margin-top: 0; font-size: 2.4rem; }
+  p.lead { font-size: 1.25rem; max-width: 40rem; }
+  .btn { margin: 0.5rem 0.5rem 0 0; }
+  .btn-light { color: $umass-maroon; font-weight: 600; }
+}
+
+// "At a glance" fact tiles
+.facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem;
+  .fact {
+    border-top: 4px solid $umass-maroon;
+    background: #f7f4f4;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    .num { font-size: 1.6rem; font-weight: 700; color: $umass-maroon; display: block; }
+    .label { font-size: 0.9rem; }
+  }
+}
+
+// Pull quotes for alumni stories
+blockquote.alum {
+  font-family: "Lora", serif;
+  font-style: italic;
+  border-left: 4px solid $umass-maroon;
+  padding-left: 1rem;
+}
+
+// Placeholder notes (remove before launch)
+.todo {
+  background: #fff8e1;
+  border: 1px dashed #c9a400;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+  border-radius: 0.25rem;
+}
+
+// Hide the default page title on the home page (the hero carries the headline)
+body.home #title-block-header { display: none; }
+
+// Clickable fact tiles (home page "At a glance")
+.facts > p { margin: 0; display: flex; }
+.facts > p > a.fact { flex: 1; }
+a.fact {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+  transition: box-shadow 0.15s, transform 0.15s;
+  .num { font-size: 1.3rem; }
+  .label { display: block; margin-top: 0.25rem; }
+  &:hover, &:focus { box-shadow: 0 4px 12px rgba(0,0,0,0.12); transform: translateY(-2px); }
+}
+
+// Embedded videos: keep them a comfortable size
+.video-wrap { max-width: 720px; margin: 0 auto 2rem; }
+
+// Video inside the home-page hero
+.hero .grid { align-items: center; }
+.hero-video { min-width: 0; }
+
+// Course cards (courses.ejs): plain cards, not clickable
+.course-grid { margin: 1rem 0 2rem; }
+.course-card {
+  border: 1px solid #ddd;
+  border-top: 4px solid $umass-maroon;
+  border-radius: 0.25rem;
+  padding: 1rem 1.25rem;
+  .course-title { font-size: 1.15rem; margin: 0 0 0.25rem; border: none; }
+  .course-meta { color: #666; font-size: 0.9rem; margin-bottom: 0.5rem; }
+  .course-desc { margin-bottom: 0.5rem; font-size: 0.95rem; }
+  .course-instructors { font-size: 0.9rem; margin: 0; font-weight: 600; }
+}
+
+// Sector boxes on the Careers & alumni page (stacked, full width)
+.sector-box {
+  border: 1px solid #ddd;
+  border-top: 4px solid $umass-maroon;
+  border-radius: 0.25rem;
+  padding: 1rem 1.25rem 1.25rem;
+  margin-bottom: 1.25rem;
+  h4 { margin-top: 0; color: $umass-maroon; }
+}
+// Employer tiles: each bullet in .employer-grid becomes a tile
+.employer-grid ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: 0.75rem;
+  li {
+    background: #f7f4f4;
+    border-radius: 0.25rem;
+    padding: 0.9rem 0.75rem;
+    min-height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.95rem;
+  }
+}
+
+// YouTube thumbnails (yt shortcode): click to watch on YouTube
+.yt-thumb {
+  display: block;
+  position: relative;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: #000;
+  text-decoration: none;
+  img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; display: block; opacity: 0.9; transition: opacity 0.15s; }
+  .yt-play {
+    position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+    width: 68px; height: 48px; border-radius: 12px; background: rgba(136, 28, 28, 0.9);
+    &::after {
+      content: ""; position: absolute; top: 50%; left: 54%; transform: translate(-50%, -50%);
+      border-style: solid; border-width: 10px 0 10px 17px; border-color: transparent transparent transparent #fff;
+    }
+  }
+  .yt-caption {
+    position: absolute; left: 0; right: 0; bottom: 0; padding: 0.5rem 0.75rem;
+    background: linear-gradient(transparent, rgba(0,0,0,0.75)); color: #fff; font-size: 0.9rem; font-weight: 600;
+  }
+  &:hover img, &:focus img { opacity: 1; }
+  &:hover .yt-play { background: $umass-maroon; }
+}
+
+// "Why biostatistics at UMass?" list on the home page
+.why-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem;
+  max-width: 52rem;
+  li {
+    border-left: 4px solid $umass-maroon;
+    padding: 0.25rem 0 0.25rem 1rem;
+    margin-bottom: 1rem;
+    strong { color: $umass-maroon; }
+  }
+}
+
+// Highlighted course card (featured: true in data/courses.yml)
+.course-featured {
+  background: #f7f4f4;
+  border: 2px solid $umass-maroon;
+  border-top-width: 6px;
+  padding: 1.5rem 1.75rem;
+  .course-badge {
+    display: inline-block; background: $umass-maroon; color: #fff; font-size: 0.75rem; font-weight: 700;
+    text-transform: uppercase; letter-spacing: 0.05em; padding: 0.15rem 0.6rem; border-radius: 1rem; margin-bottom: 0.5rem;
+  }
+  .course-title { font-size: 1.4rem; }
+  .course-tagline { font-family: "Lora", serif; font-style: italic; font-size: 1.1rem; color: $umass-maroon; margin-bottom: 0.75rem; }
+  .course-quote {
+    font-family: "Lora", serif; font-style: italic; border-left: 4px solid $umass-maroon; padding-left: 1rem; margin: 0.75rem 0 1rem;
+    span { font-family: "Public Sans", sans-serif; font-style: normal; font-weight: 600; font-size: 0.9rem; }
+  }
+}
+
+// Faculty cards on the People page (faculty.ejs)
+.faculty-grid { margin: 1rem 0 1.5rem; row-gap: 1.5rem; }
+.person-card {
+  text-align: center;
+  .person-photo { width: 100%; max-width: 160px; aspect-ratio: 1 / 1; object-fit: cover; border-radius: 50%; border: 3px solid #f0e6e6; margin-bottom: 0.5rem; }
+  p { margin: 0; }
+  .person-name { font-weight: 700; a { text-decoration: none; } }
+  .person-title { font-size: 0.85rem; color: #666; margin-bottom: 0.25rem; }
+  .person-focus { font-size: 0.85rem; }
+}
+
+// Navbar branding (see _brand.html)
+// Stacked program name, echoing the stacked UMass wordmark
+.navbar .navbar-title.program-name {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+  font-family: "Lora", Georgia, serif;
+  color: #fff;
+  .pn-top  { font-size: 0.72rem; font-style: italic; opacity: 0.9; }
+  .pn-name { font-size: 1.55rem; font-weight: 700; letter-spacing: 0.01em; margin: 1px 0 2px; }
+  .pn-sub  { font-family: "Public Sans", sans-serif; font-size: 0.6rem; letter-spacing: 0.22em; text-transform: uppercase; opacity: 0.9; }
+}
+// White UMass wordmark at the far right of the navbar
+.umass-nav-logo {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.45);
+  order: 1000;          // after the search icon (Quarto gives search order 999 on desktop)
+  flex-shrink: 0;
+  img { display: block; width: auto; }
+  .umass-long  { height: 44px; }
+  .umass-short { height: 16px; display: none; }
+}
+// Small screens: use the one-line "UMass Amherst" wordmark
+@media (max-width: 1199.98px) {
+  .umass-nav-logo { margin-left: 0.4rem; padding-left: 0.5rem; }
+  .navbar .navbar-container { justify-content: flex-start; }
+  .navbar #quarto-search { margin-left: auto; }
+  .umass-nav-logo .umass-long  { display: none; }
+  .umass-nav-logo .umass-short { display: block; }
+}
+@media (max-width: 991.98px) {
+  .umass-nav-logo { order: 5; }   // Quarto gives the search icon order 4 on small screens
+}
+@media (max-width: 480px) {
+  .navbar .navbar-title.program-name .pn-name { font-size: 1.15rem; }
+  .navbar .navbar-title.program-name .pn-sub  { letter-spacing: 0.12em; }
+  .umass-nav-logo { margin-left: 0.25rem; padding-left: 0.4rem; }
+  .umass-nav-logo .umass-short { height: 10px; }
+  .navbar .navbar-brand { margin-right: 0; }
+}
+@media (max-width: 380px) {
+  .navbar .navbar-title.program-name .pn-top { display: none; }
+  .navbar .navbar-title.program-name .pn-name { font-size: 1.05rem; }
+  .umass-nav-logo { border-left: none; padding-left: 0; }
+}

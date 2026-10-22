@@ -1,0 +1,21 @@
+```{=html}
+<div class="list grid course-grid">
+<% for (const item of items) { %>
+  <div class="<%= item.featured ? 'g-col-12 course-card course-featured' : 'g-col-12 g-col-md-6 course-card' %>" <%= metadataAttrs(item) %>>
+<% if (item.featured) { %>    <p class="course-badge">Highlighted course</p>
+<% } %>
+    <h3 class="course-title"><%= item.title %></h3>
+<% if (item.tagline) { %>    <p class="course-tagline"><%= item.tagline %></p>
+<% } %>
+<% if (item.description) { %>    <p class="course-desc"><%= item.description %></p>
+<% } %>
+<% if (item.quote) { %>    <blockquote class="course-quote">“<%= item.quote %>”<% if (item.quote_by) { %><br><span>— <%= item.quote_by %></span><% } %></blockquote>
+<% } %>
+<% if (item.instructors) { %>    <p class="course-instructors">Instructor<%= item.instructors.length > 1 ? "s" : "" %>:
+<% for (let i = 0; i < item.instructors.length; i++) { const ins = item.instructors[i]; %><% if (i > 0) { %>, <% } %><% if (ins.url) { %><a href="<%= ins.url %>"><%= ins.name %></a><% } else { %><%= ins.name %><% } %><% } %>
+    </p>
+<% } %>
+  </div>
+<% } %>
+</div>
+```

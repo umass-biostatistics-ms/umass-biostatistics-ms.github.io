@@ -1,0 +1,50 @@
+# Faculty shown on the People page (faculty.ejs). Links here are also used for instructors on the Courses page.
+# Fields: name, title, focus (research/teaching focus), url (lab or faculty webpage), photo (image URL from the UMass directory)
+
+- name: Leontine Alkema
+  title: Professor
+  focus: Bayesian methods, global and reproductive health, clinical trials
+  url: https://leontinealkema.github.io/alkema_lab/
+  photo: "https://www.umass.edu/public-health-sciences/sites/g/files/ijdqth186/files/styles/1_1_m/public/2026-02/Leontine_Alkema_2026_person.jpg?h=3aef581a&itok=QBhwPrsQ"
+
+- name: Raji Balasubramanian
+  title: Professor
+  focus: Network models, genomic and metabolomic data, women's health
+  url: https://raji-lab.github.io/
+  photo: "https://www.umass.edu/public-health-sciences/sites/g/files/ijdqth186/files/styles/1_1_m/public/2022-10/Raji%20Balasubramanian_person-image.jpg?h=a7e6d17b&itok=OGS4od13"
+
+- name: Ken Kleinman
+  title: Professor
+  focus: Correlated data, cluster-randomized trials, power
+  url: https://www.kleinman.science/
+  photo: "https://www.umass.edu/public-health-sciences/sites/g/files/ijdqth186/files/styles/1_1_m/public/2022-10/Ken_Kleinman_person-image.jpg?h=a7e6d17b&itok=73PcAMZh"
+
+- name: Alex Knee
+  title: Lecturer
+  focus: Applied biostatistics and epidemiology, clinical research
+  url: https://www.umass.edu/public-health-sciences/about/directory/alex-knee
+  photo: "https://www.umass.edu/public-health-sciences/sites/g/files/ijdqth186/files/styles/1_1_m/public/2025-08/Alex_Knee_person.jpg?h=3aef581a&itok=XnIM9tEQ"
+
+- name: Zhengqing Ouyang
+  title: Professor
+  focus: Data integration, manifold learning, genomics
+  url: https://people.umass.edu/ouyanglab/
+  photo: "https://www.umass.edu/public-health-sciences/sites/g/files/ijdqth186/files/styles/1_1_m/public/2022-10/Zhengqing-Ouyang_person-image.jpg?h=a7e6d17b&itok=8qY9BbpX"
+
+- name: Jing Qian
+  title: Professor
+  focus: Survival analysis, risk prediction, Alzheimer's disease
+  url: https://www.umass.edu/public-health-sciences/about/directory/jing-qian
+  photo: "https://www.umass.edu/public-health-sciences/sites/g/files/ijdqth186/files/styles/1_1_m/public/2022-10/Jing_Qian_person-image.jpg?h=a7e6d17b&itok=sx6hgB1J"
+
+- name: Nick Reich
+  title: Professor
+  focus: Forecasting, machine learning, infectious disease
+  url: https://reichlab.io/
+  photo: "https://www.umass.edu/public-health-sciences/sites/g/files/ijdqth186/files/styles/1_1_m/public/2022-10/Nicholas_Reich_person-image.jpg?h=a7e6d17b&itok=hHrj0ecy"
+
+- name: Leora Sarvet
+  title: Assistant Professor
+  focus: Causal inference, longitudinal data, personalized medicine
+  url: https://www.umass.edu/public-health-sciences/about/directory/aaron-sarvet
+  photo: "https://www.umass.edu/public-health-sciences/sites/g/files/ijdqth186/files/styles/1_1_m/public/2025-07/Collegiate%20M%20Logo%20for%20Headshots_0.png?h=9cbff3b9&itok=uwhkuowp"

@@ -1,0 +1,50 @@
+---
+title: "MS in Biostatistics"
+page-layout: full
+body-classes: home
+---
+
+::::: {.hero}
+:::: {.grid}
+::: {.g-col-12 .g-col-lg-6}
+# Become a biostatistician
+
+[Biostatistics sits where data science, statistics, public health and medicine meet. Our MS in Biostatistics at UMass Amherst trains you for careers in pharma, industry, health care, government and research, with hands-on data analysis from day one.]{.lead}
+:::
+::: {.g-col-12 .g-col-lg-6 .hero-video}
+{{< yt K-9jJonpTEQ "MS in Biostatistics at UMass Amherst" >}}
+:::
+::::
+:::::
+
+## At a glance
+
+::: {.facts}
+[[The program →]{.num} [30 credits · 3–4 semesters · project or thesis. See how the courses fit together.]{.label}](program.qmd){.fact}
+
+[[Accelerated MS (4+1) →]{.num} [For students from UMass and the Five Colleges: get your MS in one extra year.]{.label}](4plus1.qmd){.fact}
+
+[[Apply now →]{.num} [Applications reviewed on a rolling basis · final deadline Feb 1 · GRE not required.]{.label}](apply.qmd){.fact}
+:::
+
+## Why biostatistics at UMass?
+
+::: {.why-list}
+- **Strong career prospects.** Training in both foundational statistics and application makes our graduates highly employable, from the US FDA and state health departments to pharma, hospitals, insurers and tech companies.
+- **The full data-analysis cycle.** You learn to ask a question, explore the data, model it and communicate the findings. You program in R and SAS, practice reproducible analysis, and finish with a project or thesis.
+- **Small classes, expert faculty.** We're a close-knit department where faculty know their students. Classes are small, and you're taught by faculty who do research in the topics they teach.
+:::
+
+## Explore
+
+:::: {.grid}
+::: {.g-col-12 .g-col-md-4}
+**[Courses](courses.qmd)**<br>A sample of what we teach and what students learn.
+:::
+::: {.g-col-12 .g-col-md-4}
+**[Careers & alumni](outcomes.qmd)**<br>Where our graduates are now.
+:::
+::: {.g-col-12 .g-col-md-4}
+**[People](people.qmd)**<br>Our faculty and who to contact.
+:::
+::::

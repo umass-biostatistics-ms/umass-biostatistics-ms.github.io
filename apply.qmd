@@ -1,0 +1,55 @@
+---
+title: "Apply"
+subtitle: "Prerequisites, deadlines and costs"
+---
+
+## Key dates for fall 2027 admission
+
+We review applications **on a rolling basis**, so we encourage you to apply early.
+
+| Date | |
+|---|---|
+| **Mid-August 2026** | Applications open |
+| **February 1, 2027** | SOPHAS deadline |
+| **March 1, 2027** | All materials due, including the UMass supplemental application |
+
+[Apply at sophas.org](https://sophas.org){.btn .btn-primary target="_blank"}
+
+## Prerequisites
+
+| Course | |
+|---|---|
+| Calculus I and II | Required |
+| Calculus III (multivariable) | Recommended |
+| Linear algebra | Recommended |
+
+## What you'll submit
+
+1. A **SOPHAS application** with a personal statement.
+2. **Official transcripts.** Admitted students typically have a GPA of 3.0 or higher.
+3. **Three letters of recommendation**, plus a résumé or CV.
+4. The **UMass supplemental application.** The link is emailed to you after you submit in SOPHAS.
+
+The **GRE is not required**. International applicants may need an English proficiency test; see the Graduate School website.
+
+[Official admissions page](https://www.umass.edu/public-health-sciences/academics/biostatistics/graduate-admissions-biostatistics)
+
+## Costs & scholarships
+
+- **Merit scholarships:** last year's awards were about **\$5,000 per year, for 2 years**.
+- **Affordable:** UMass graduate degrees are cost-effective, especially for Massachusetts residents. See [graduate tuition rates](https://www.umass.edu/bursar/tuition/graduate-tuition).
+- **Assistantships:** some TA/RA positions are available, but they are usually not guaranteed for MS students.
+
+## Undergraduates: try biostatistics first
+
+Our **Summer Workshop in Biostatistics** is a 2-week program in June for 15–20 undergraduates, with a **\$1,000 stipend**. It includes lectures and hands-on labs with UMass faculty and PhD students, statistical computing in R, guest speakers from academia and industry, and advice on career paths. Lunch is provided and on-campus housing is available. It's open to undergraduates who have completed at least one year of study.
+
+We ran it in June 2024 and 2025 and hope to offer it again in summer 2027. [Workshop page](https://www.umass.edu/public-health-sciences/academics/biostatistics/summer-workshop-biostatistics) · Questions: [rbalasub@umass.edu](mailto:rbalasub@umass.edu)
+
+## Questions?
+
+- **MS program:** Raji Balasubramanian, [rbalasub@umass.edu](mailto:rbalasub@umass.edu)
+- **Accelerated MS (4+1):** Nick Reich, [nick@umass.edu](mailto:nick@umass.edu)
+- **Admissions process:** Lauren McBroom, [laurenmcbroo@umass.edu](mailto:laurenmcbroo@umass.edu)
+
+You can also watch the [MS in Biostatistics program video](https://youtu.be/K-9jJonpTEQ).

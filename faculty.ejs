@@ -1,0 +1,12 @@
+```{=html}
+<div class="list grid faculty-grid">
+<% for (const item of items) { %>
+  <div class="g-col-6 g-col-md-4 g-col-lg-3 person-card" <%= metadataAttrs(item) %>>
+    <a href="<%= item.url %>"><img class="person-photo" src="<%= item.photo %>" alt="Photo of <%= item.name %>" loading="lazy"></a>
+    <p class="person-name"><a href="<%= item.url %>"><%= item.name %></a></p>
+    <p class="person-title"><%= item.title %></p>
+    <p class="person-focus"><%= item.focus %></p>
+  </div>
+<% } %>
+</div>
+```

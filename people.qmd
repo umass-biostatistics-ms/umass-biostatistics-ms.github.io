@@ -1,0 +1,32 @@
+---
+title: "People"
+subtitle: "A close-knit, collaborative program"
+listing:
+  id: faculty
+  contents: data/faculty.yml
+  template: faculty.ejs
+  sort: false
+---
+
+UMass Biostatistics is part of the **Department of Biostatistics and Epidemiology** in the School of Public Health & Health Sciences, which has about 20 faculty. Our program has **10 tenure-track faculty and lecturers, 24 MS students and 17 PhD students**, so students and faculty get to know each other well.
+
+
+
+## Contacts
+
+| | Name | Email |
+|---|---|---|
+| Admissions questions | Lauren McBroom | [laurenmcbroo@umass.edu](mailto:laurenmcbroo@umass.edu) |
+| MS program | Raji Balasubramanian | [rbalasub@umass.edu](mailto:rbalasub@umass.edu) |
+| Accelerated MS (4+1) | Nick Reich | [nick@umass.edu](mailto:nick@umass.edu) |
+
+## Meet some of our faculty
+
+::: {#faculty}
+:::
+
+[All biostatistics faculty in the UMass directory →](https://www.umass.edu/public-health-sciences/about/directory?s=&field_person__profile_type_ref_target_id%5B391%5D=391&field_person__related_programs_target_id_reference%5B181%5D=181)
+
+
+
+

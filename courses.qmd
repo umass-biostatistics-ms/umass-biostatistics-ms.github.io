@@ -1,0 +1,36 @@
+---
+title: "Courses"
+listing:
+  id: courses
+  contents: data/courses.yml
+  template: courses.ejs
+  sort: false
+---
+
+## Meet some of your instructors
+
+
+
+:::: {.grid}
+::: {.g-col-12 .g-col-md-6}
+{{< yt orUSMTP5720 "Faculty profile: Raji Balasubramanian" >}}
+
+**[Raji Balasubramanian](https://raji-lab.github.io/)** teaches *Survival Analysis* (BIOSTATS 748).
+:::
+::: {.g-col-12 .g-col-md-6}
+{{< yt hEu_180A2eA "Faculty profile: Nick Reich" >}}
+
+**[Nick Reich](https://reichlab.io/)** co-teaches *R for Data Science* (BIOSTATS 530 · 531 · 632).
+:::
+::::
+
+## Courses
+
+Here is a sample of our graduate courses. You're taught by faculty who are experts and do research in the topics they teach.
+
+::: {#courses}
+:::
+
+<!-- For full descriptions, see the [official course descriptions](https://www.umass.edu/public-health-sciences/academics/biostatistics/course-descriptions). -->
+
+<!-- To update: edit data/courses.yml (course text and instructors). The card layout is in courses.ejs. -->

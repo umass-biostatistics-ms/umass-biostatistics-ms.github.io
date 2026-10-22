@@ -1,0 +1,56 @@
+project:
+  type: website
+  output-dir: docs          # GitHub Pages: Settings > Pages > Deploy from branch "main", folder "/docs"
+  resources:
+    - resources/*.pdf       # downloadable files (e.g. the MS tracking form)
+    - .nojekyll             # tells GitHub Pages to serve the site as-is
+    - images/*.png          # UMass wordmarks (navbar)
+  render:
+    - "*.qmd"
+    - "!README.md"
+
+website:
+  title: "UMass MS Biostatistics"
+  site-url: "https://umass-biostatistics-ms.github.io/"
+  description: "An MS that trains biostatisticians for careers in pharma, industry, health and research."
+  page-navigation: true
+  open-graph: true
+  navbar:
+    background: primary
+    collapse-below: xl   # use the menu button below 1200px wide, so the bar never gets crowded
+    left:
+      - href: index.qmd
+        text: Home
+      - href: program.qmd
+        text: The program
+      - href: 4plus1.qmd
+        text: "Accelerated MS"
+      - href: courses.qmd
+        text: Courses
+      - href: outcomes.qmd
+        text: Careers & alumni
+      - href: people.qmd
+        text: People
+    right:
+      - text: "Apply now"
+        href: apply.qmd
+  page-footer:
+    left: |
+      [UMass Amherst](https://www.umass.edu) ·
+      [School of Public Health & Health Sciences](https://www.umass.edu/public-health-sciences/) ·
+      [Official program page](https://www.umass.edu/public-health-sciences/academics/ms-biostatistics)
+    right: |
+      © 2026 University of Massachusetts Amherst ·
+      [Site policies](https://www.umass.edu/gateway/site-policies) ·
+      [Privacy](https://www.umass.edu/policy/information-privacy-policy) ·
+      [Accessibility](https://www.umass.edu/accessibility/)
+
+format:
+  html:
+    theme: [cosmo, styles/umass.scss]
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true   # external links open in a new tab
+    link-external-icon: false
+    include-before-body:
+      - _brand.html   # program name + UMass wordmark in the navbar

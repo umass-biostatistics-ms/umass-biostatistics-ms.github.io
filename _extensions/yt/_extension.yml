@@ -1,0 +1,6 @@
+title: YouTube thumbnail
+author: UMass Biostatistics
+version: 1.0.0
+contributes:
+  shortcodes:
+    - yt.lua
